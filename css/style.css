@@ -734,6 +734,7 @@ a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  background-color: black;
 }
 
 .skill-col-md-4 {
@@ -1122,6 +1123,7 @@ a:hover {
 
 #contact.box-shadow-full {
   background-color: rgb(194, 194, 200) !important;
+  border-radius: 5px;
 }
 
 /*======================================
@@ -1158,6 +1160,7 @@ footer .credits a {
   padding: 15px;
   font-weight: 600;
   margin-bottom: 15px;
+  background-color: rgb(194, 194, 200)
 }
 
 #errormessage {
@@ -1168,6 +1171,7 @@ footer .credits a {
   padding: 15px;
   font-weight: 600;
   margin-bottom: 15px;
+  background-color: rgb(194, 194, 200)
 }
 
 #sendmessage.show,
@@ -1450,6 +1454,7 @@ footer .credits a {
   width: 190px;
   object-fit: scale-down;
 }
+
 @media (min-width: 768px) {
   .skill-col-md-4 {
     flex: 0;
@@ -1468,3 +1473,109 @@ footer .credits a {
   height: 300px;
   object-fit: scale-down;
 }
+
+.portfolio-mf.sect-pt4.route {
+  background-color: black;
+}
+
+.about-mf.sect-pt4.route {
+  background-color: black;
+}
+
+.col-sm-12 {
+  background-color: black;
+}
+
+#page-top {
+  background-color: black;
+}
+
+
+/* .port-img-fluid {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.work-img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+} */
+
+.work-box {
+  border-radius: 5px;
+}
+
+.work-content {
+  display: flex;
+  /* background-color: rgb(194, 194, 200) */
+}
+
+.w-like {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-sm-8 {
+  margin-right: 0 !important;
+  padding: 5px 0px !important;
+}
+
+.col-sm-4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: -60px;
+  gap: 10px;
+}
+
+.port-row {
+  display: flex;
+  /* align-items: center; */
+  width: 100%;
+  justify-content: space-between;
+}
+
+.live-link {
+  color: black !important;
+  text-decoration: none;
+  font-size: 13px;
+  width: 60px;
+  font-weight: 500;
+  /* margin-left: 15px; */
+}
+
+.live-link:hover {
+  text-decoration: underline;
+}
+
+.w-title {
+  width: 150px;
+}
+
+.proj-row {
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 920px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+
+/* .col-md-4 {
+  margin: 0 !important;
+
+} */
