@@ -774,11 +774,11 @@ a:hover {
   backface-visibility: hidden;
   background-color: #fff;
 }
-
+/* 
 .work-box:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
-}
+} */
 
 .work-img {
   display: block;
