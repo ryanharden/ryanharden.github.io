@@ -1178,6 +1178,13 @@ footer .credits a {
   background-color: rgb(194, 194, 200)
 }
 
+/* .footer {
+  display: none;
+} */
+#errormessage.show.footer {
+  display: none;
+}
+
 #sendmessage.show,
 #errormessage.show,
 .show {
@@ -1190,6 +1197,26 @@ footer .credits a {
   margin: 0 0 20px;
   font-weight: 400;
   font-size: 13px;
+}
+
+a.back {
+  display: none;
+}
+
+#errormessage.show,
+.card {
+  background-color: rgb(194, 194, 200);
+  margin: 0 !important;
+  border: none !important;
+}
+
+#errormessage.show,
+.footer {
+  z-index: 2;
+}
+
+.box-shadow-full {
+  z-index: 1;
 }
 
 /*======================================
@@ -1474,8 +1501,11 @@ footer .credits a {
 }
 
 .port-img-fluid {
+  position: relative;
+  /* margin-top: -54px; */
   height: 300px;
-  object-fit: scale-down;
+  object-fit: contain;
+  /* border-radius: 25px; */
 }
 
 .portfolio-mf.sect-pt4.route {
