@@ -1,0 +1,87 @@
+.hero {
+  background-color: transparent;
+  height: 900px; // Make the hero section take the full height
+  // width: 100%; // Full width
+  // max-width: 100vw;
+  display: flex; // To center the content
+  flex-direction: column;
+  align-items: center; // Center vertically
+  justify-content: center;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  // margin-bottom: -100px;
+  @media (max-width: 768px) {
+    margin-bottom: 4.8rem;
+  }
+}
+
+.copyWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+  width: fit-content;
+  margin: 4.8rem 0;
+  gap: 20px;
+}
+
+.title {
+  font-size: var(--text-2xl);
+  font-weight: 900;
+  line-height: 1.1;
+
+  span {
+    color: var(--brand);
+  }
+
+  @media (max-width: 768px) {
+    font-size: var(--text-xl);
+  }
+}
+
+.subTitle {
+  font-size: var(--text-lg);
+  line-height: 1.1;
+  margin-top: 1.6rem;
+  margin-bottom: 3.2rem;
+  font-weight: 200;
+
+  span {
+    font-weight: bold;
+    color: var(--brand);
+  }
+}
+
+.aboutCopy {
+  margin: 2.4rem 0;
+  max-width: 700px;
+  font-weight: 200;
+}
+
+.heroWrapper {
+  position: relative;
+  z-index: 10;
+  margin: auto;
+  padding: 9.6rem;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .heroWrapper {
+    padding: 7.2rem 2.4rem;
+  }
+}
+
+// .vanta-canvas {
+//   width: auto;
+// }
+.buttons {
+  display: flex;
+  // justify-content: space-between;
+  gap: 40px;
+
+  @media (max-width:768px) {
+    gap: 10px;
+  }
+}
